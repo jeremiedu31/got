@@ -10,12 +10,22 @@ using namespace std;
 
 
 
-	/* pour se déplacer dans les dossiers :
+	/* 
+    pour se déplacer dans les dossiers :
 		en avant : cd TonDosssier
 		en arriere : cd ..
 		voir les dossiers et fichiers de la ou on est : ls
 		prédire le nom du Dossier/Fichier : couper	
-	 g++ -Wall untitled.cpp -o test1
+	  g++ -Wall untitled.cpp -o test1
+    
+    avant de commencer : 
+        git pull
+
+    à la fin : 
+        git add -A
+        git commit -m "message"
+        git push
+
 	*/
 
 int main()
