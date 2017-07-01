@@ -38,17 +38,49 @@ int main()
 
    int ALLIANCE = rand()%(LENGTH_ALLIANCE);
 
-   int A = rand()%(9)+1;
-   int O = rand()%(9)+1;
-   int M = rand()%(9)+1;
-   int T = rand()%(9)+1;
+   int aA = rand()%(10)+1;
+   int aO = rand()%(10)+1;
+   int aG = rand()%(10)+1;
+   int aT = rand()%(10)+1;
+   int aD = rand()%(10)+1;
+
+   int bA = rand()%(10)+1;
+   int bO = rand()%(10)+1;
+   int bG = rand()%(10)+1;
+   int bT = rand()%(10)+1;
+   int bD = rand()%(10)+1;
+
+   int cA = rand()%(10)+1;
+   int cO = rand()%(10)+1;
+   int cG = rand()%(10)+1;
+   int cT = rand()%(10)+1;
+   int cD = rand()%(10)+1;
+
+   int dA = rand()%(10)+1;
+   int dO = rand()%(10)+1;
+   int dG = rand()%(10)+1;
+   int dT = rand()%(10)+1;
+   int dD = rand()%(10)+1;
 
 
-    cout << A << endl;
-    cout << O << endl;
-    cout << M << endl;
-    cout << T << endl;
-    cout << alliance[ALLIANCE] << endl;
+
+   int AB = rand()%(3)+1;
+   int AC = rand()%(3)+1;
+   int AD = rand()%(3)+1;
+
+   int BA = rand()%(3)+1;
+   int BC = rand()%(3)+1;
+   int BD = rand()%(3)+1;
+
+   int CA = rand()%(3)+1;
+   int CB = rand()%(3)+1;
+   int CD = rand()%(3)+1;
+
+   int DA = rand()%(3)+1;
+   int DB = rand()%(3)+1;
+   int DC = rand()%(3)+1;
+
+    
 
 
        /*
