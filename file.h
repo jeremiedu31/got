@@ -1,10 +1,14 @@
 #ifndef FILE_H
 #define FILE_H
 
-#include <fstream>
+#include <iostream>
+#include <stdio.h>
 #include <cstdlib>
+#include <fstream>
 #include <string>
 #include <vector>
+
+#define BUFFER_SIZE 1024
 
 using namespace std;
 

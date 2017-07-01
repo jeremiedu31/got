@@ -3,7 +3,10 @@
 #include <string>
 #include <cstdlib>
 
+#include "file.cpp"
+
 #define LENGTH_ALLIANCE 4
+
 
 using namespace std;
 
@@ -31,6 +34,19 @@ using namespace std;
 int main()
 
   {
+
+  vector<string> tabAllience = read("fichier1.txt");
+
+/*
+  Pour afficher le contenu recuperé du fichier
+*/
+    for (int i = 0; i < tabAllience.size(); ++i) {
+      cout << tabAllience[i] << endl;
+    }
+
+
+
+
    srand(time(NULL));
    string alliance[LENGTH_ALLIANCE]  =  {"promesse","mariage","terre","service"};
 

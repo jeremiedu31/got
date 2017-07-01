@@ -1,12 +1,4 @@
-#include <iostream>
-#include <stdio.h>
-#include <cstdlib>
-#include <fstream>
-#include <vector>
-
 #include "file.h"
-
-#define BUFFER_SIZE 1024
 
 
 vector<string> read (const char * filename) {
@@ -43,12 +35,12 @@ vector<string> read (const char * filename) {
 }
 
 
-int main () {
-	vector<string> v = read("fichier1.txt");
-	for (int i = 0; i < v.size(); ++i)
-	{
-		cout << v[i] << endl;
-	}
+// int main () {
+// 	vector<string> v = read("fichier1.txt");
+// 	for (int i = 0; i < v.size(); ++i)
+// 	{
+// 		cout << v[i] << endl;
+// 	}
 
-    return 0;
-}
+//     return 0;
+// }
